@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Bobel
+- PRÉNOM : Banjamin
+- GROUPE : A2
+- URL du site : https://lionimation.netlify.app
+- URL FIGMA : https://www.figma.com/design/Jv7BPDv6PKPr2mL0dvdqXn/sae-105-2024?node-id=1-3&t=TAzY2YsyQhnNTFb7-1 
 
 ## Sujet
 
