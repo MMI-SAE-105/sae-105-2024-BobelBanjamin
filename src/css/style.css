@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #190A35;
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+main {
+    background-image: radial-gradient(#111E4B 5px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    padding: 2rem
+}
+
+header {
+    background-color: #111E4B;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111E4B;
+}
+
+header nav {
+    width: 100vw;
+    height: 100vh;
+    background-color: #190A35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 0rem 2rem;
+}
+
+header li {
+    padding: 1.5rem 0;
+}
+
+
+header li > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Anybody', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+header li:not(:first-child) {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-image: linear-gradient(88deg, #FF4E78 13.11%, #316FF9 68.41%, rgba(48, 110, 249, 0.50) 118.44%) 1;
+}
+
+.card_content {
+    border-radius: 41px;
+    background-color: #312345;
+    padding: 2.25rem 3.30rem 1.5rem 3.30rem;
+    font-size: 0.875rem;
+}
+
+
+.card_title {
+    border-radius: 9999px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Anybody', sans-serif;
+}
+
+.card_pink {
+    background-color: #FF4E78;
+}
+
+.card_green {
+    background-color: #A4CF00;
+}
+
+.card_blue {
+    background-color: #306EF9;
+}
+
+.article_card {
+    padding: 24px 20px;
+    background-color: #312345;
+    border-radius: 40px;
+}
+
+.article_card > *:not(:first-child) {
+    margin-top: 25px;
+}
+
+.article_card p, h2 {
+    margin: 0;
+}
+
+.article_card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Anybody', sans-serif;
+}
+
+.title_pink {
+    color: #FF4E78;
+}
+
+.title_green {
+    color: #A4CF00;
+}
+
+.title_blue {
+    color: #306EF9;
+}
