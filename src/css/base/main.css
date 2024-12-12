@@ -7,3 +7,77 @@ body {
 p {
     font-family: Calibri, sans-serif;
 }
+
+main {
+    background-image: radial-gradient(#111E4B 5px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    padding: 2rem
+}
+
+.title_pink {
+    color: #FF4E78;
+}
+
+.title_green {
+    color: #A4CF00;
+}
+
+.title_blue {
+    color: #306EF9;
+}
+
+.card_content {
+    border-radius: 41px;
+    background-color: #312345;
+    padding: 2.25rem 3.30rem 1.5rem 3.30rem;
+    font-size: 0.875rem;
+}
+
+
+.card_title {
+    border-radius: 9999px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Anybody', sans-serif;
+}
+
+.card_pink {
+    background-color: #FF4E78;
+}
+
+.card_green {
+    background-color: #A4CF00;
+}
+
+.card_blue {
+    background-color: #306EF9;
+}
+
+.article_card {
+    padding: 24px 20px;
+    background-color: #312345;
+    border-radius: 40px;
+}
+
+.article_card > *:not(:first-child) {
+    margin-top: 25px;
+}
+
+.article_card p, h2 {
+    margin: 0;
+}
+
+.article_card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Anybody', sans-serif;
+}
+
+
