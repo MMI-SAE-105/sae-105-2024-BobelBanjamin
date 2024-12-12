@@ -8,24 +8,26 @@ header > div {
     align-items: center;
     padding: 1rem 2rem;
     background-color: #111E4B;
+    position: relative;
+    z-index: 30;
 }
 
 header nav {
     width: 100vw;
     height: 100vh;
     background-color: #190A35;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(-100%);
+    z-index: 20;
     transition: transform 0.3s ease-in-out;
 }
 
-header nav.open {
-    transform: translateX(0);
+header .open {
+    display: flex;
 }
 
 header ul {
@@ -66,7 +68,8 @@ header li:not(:first-child) {
     height: 30px;
 }
 
-.menu-btn {
+button {
     background: transparent;
     border: none;
 }
+
