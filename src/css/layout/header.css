@@ -24,7 +24,7 @@ header nav {
     top: 0;
     left: 0;
     z-index: 20;
-    transform: translateX(100vw);
+    transform: translateX(-100vw);
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -39,6 +39,8 @@ header ul {
     padding: 0;
     margin: 0;
     padding: 0rem 2rem;
+    position: relative;
+    top: 7rem;
 }
 
 header li {
