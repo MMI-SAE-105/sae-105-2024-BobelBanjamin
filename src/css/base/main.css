@@ -55,14 +55,14 @@ main {
     border-radius: 9999px;
     text-transform: uppercase;
     padding: 10px 15px;
-    position: relative;
-    left: 300px;
     width: fit-content;
     font-size: 16px;
     font-weight: bold;
     font-family: 'Anybody', sans-serif;
     color: white; /* Ensure the text is visible */
     background-color: #312345; /* Add a background color to make the text stand out */
+    float: right;
+    margin-top: 0.67em;
 }
 
 .card_pink {
@@ -147,3 +147,4 @@ main {
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
