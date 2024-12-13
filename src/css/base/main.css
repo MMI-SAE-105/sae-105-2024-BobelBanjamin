@@ -81,3 +81,9 @@ main {
 }
 
 
+.titre-presentation {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    color: #FF4E78;
+}
