@@ -1,0 +1,14 @@
+.voirplus {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #FF4E78, #316FF9, #306EF9 );
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Annybody', sans-serif;
+}

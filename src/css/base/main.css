@@ -87,3 +87,10 @@ main {
     font-size: 32px;
     color: #FF4E78;
 }
+
+.titre-presentation2 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    color: #306EF9;
+}
