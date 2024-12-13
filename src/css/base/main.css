@@ -51,6 +51,20 @@ main {
     font-family: 'Anybody', sans-serif;
 }
 
+.card_title2 {
+    border-radius: 9999px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    left: 300px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Anybody', sans-serif;
+    color: white; /* Ensure the text is visible */
+    background-color: #312345; /* Add a background color to make the text stand out */
+}
+
 .card_pink {
     background-color: #FF4E78;
 }
@@ -123,4 +137,13 @@ main {
 .titre {
     margin-bottom: 25px;
     margin-top: 1px;
+}
+
+.billet1 {
+    text-align: left;
+    font-family: 'Monoton', cursive;
+    font-size:16px;
+    color: #FF4E78;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
