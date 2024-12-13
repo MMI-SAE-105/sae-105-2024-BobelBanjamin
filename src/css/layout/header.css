@@ -10,24 +10,28 @@ header > div {
     background-color: #111E4B;
     position: relative;
     z-index: 30;
+    transition: transform 0.3s ease-in-out
 }
 
 header nav {
     width: 100vw;
     height: 100vh;
     background-color: #190A35;
-    display: none;
+    visibility: hidden;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 20;
-    transition: transform 0.3s ease-in-out;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 header .open {
-    display: flex;
+    visibility: visible;
+    transform: translateX(0);
 }
 
 header ul {
