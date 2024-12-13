@@ -56,3 +56,56 @@ img {
     display: block;/* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
   }
   
+
+
+
+
+.contact-card {
+    background-color: #67313100; /* Couleur de fond - https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
+    padding: 20px; /* Espacement interne - https://developer.mozilla.org/fr/docs/Web/CSS/padding */
+    border-radius: 8px; /* Bordure arrondie - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée - https://developer.mozilla.org/fr/docs/Web/CSS/box-shadow */
+    max-width: 500px; /* Largeur maximale - https://developer.mozilla.org/fr/docs/Web/CSS/max-width */
+    margin: 0 auto; /* Centrer horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+}
+
+.contact-card h2 {
+    text-align: center; /* Centrer le texte - https://developer.mozilla.org/fr/docs/Web/CSS/text-align */
+    color: #ffffff; /* Couleur du texte - https://developer.mozilla.org/fr/docs/Web/CSS/color */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Marge inférieure - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+}
+
+.form-group label {
+    display: block; /* Afficher comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+    margin-bottom: 5px; /* Marge inférieure - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+    color: #ffffff; /* Couleur du texte - https://developer.mozilla.org/fr/docs/Web/CSS/color */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Largeur 100% - https://developer.mozilla.org/fr/docs/Web/CSS/width */
+    padding: 10px; /* Espacement interne - https://developer.mozilla.org/fr/docs/Web/CSS/padding */
+    border: 1px solid #ccc; /* Bordure - https://developer.mozilla.org/fr/docs/Web/CSS/border */
+    border-radius: 4px; /* Bordure arrondie - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+    box-sizing: border-box; /* Inclure la bordure et le padding dans la largeur et la hauteur - https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing */
+}
+
+button[type="submit"] {
+    display: block; /* Afficher comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+    width: 100%; /* Largeur 100% - https://developer.mozilla.org/fr/docs/Web/CSS/width */
+    padding: 10px; /* Espacement interne - https://developer.mozilla.org/fr/docs/Web/CSS/padding */
+    background: linear-gradient(90deg, #FF4E78, #316FF9, #306EF9 ); /* Couleur de fond - https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
+    color: #fff; /* Couleur du texte - https://developer.mozilla.org/fr/docs/Web/CSS/color */
+    border: none; /* Pas de bordure - https://developer.mozilla.org/fr/docs/Web/CSS/border */
+    border-radius: 4px; /* Bordure arrondie - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+    cursor: pointer; /* Curseur pointeur - https://developer.mozilla.org/fr/docs/Web/CSS/cursor */
+    font-size: 16px; /* Taille de la police - https://developer.mozilla.org/fr/docs/Web/CSS/font-size */
+    border-radius: 20px;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #FF4E78, #316FF9, #306EF9 ); /* Couleur de fond au survol - https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
+}

@@ -32,6 +32,7 @@ main {
     background-color: #312345;
     padding: 2.25rem 3.30rem 1.5rem 3.30rem;
     font-size: 0.875rem;
+    margin-bottom: 50px;
 }
 
 
@@ -64,6 +65,7 @@ main {
     padding: 24px 20px;
     background-color: #312345;
     border-radius: 40px;
+    margin-bottom: 50px;
 }
 
 .article_card > *:not(:first-child) {
