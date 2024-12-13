@@ -82,10 +82,12 @@ main {
 
 
 .titre-presentation {
+    margin-top: 50px;
     text-align: center;
     font-family: 'Monoton', cursive;
     font-size: 32px;
     color: #FF4E78;
+    margin-bottom: 50px;
 }
 
 .titre-presentation2 {
@@ -93,4 +95,23 @@ main {
     font-family: 'Monoton', cursive;
     font-size: 32px;
     color: #306EF9;
+    margin-bottom: 50px;
+}
+
+.titre-presentation3 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    color: #CAFB12;
+    margin-bottom: 50px;
+}
+
+.titre-presentation4 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    background: linear-gradient(90deg, #FF4E78, #316FF9, #306EF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
 }
